@@ -3,7 +3,7 @@ import Web3 from 'web3';
 import Web3Connection from './ABI/web3conn.json';
 
 //creating the variable of test net
-const RPC ="https://ropsten.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161";
+const RPC ="";
 
  const Contract = require('web3-eth-contract');
 
@@ -11,7 +11,7 @@ const RPC ="https://ropsten.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161";
  Contract.setProvider(RPC);
 
  // copy the hash from remix
- const Contract_Address= "0x3169A94577D194CA3367B9Da77E842aB4f442F4c";
+ const Contract_Address= "";
 
 //detect web browser
 const loadWeb3 = async () =>{
